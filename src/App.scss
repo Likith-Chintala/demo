@@ -1,0 +1,37 @@
+// @import "styles/variables";
+// @import "styles/global";
+@import '@strobes/components/scss/global';
+@import '@strobes/components/lib/index.css';
+
+main {
+    display: block;
+}
+
+.bx--modal-content {
+    padding-right: 16px !important;
+    overflow: visible !important;
+}
+
+.bx--modal-container {
+    overflow: visible !important;
+}
+
+.st--no-border {
+    border: 0 !important;
+}
+
+.st--activity-detail__body {
+    display: block !important;
+}
+
+.bx--select-option {
+    background-color: #262626;
+}
+
+.st--full-height {
+    height: 100%;
+}
+
+.st--break-word {
+    word-wrap: break-word !important;
+}

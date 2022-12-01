@@ -1,0 +1,79 @@
+{
+    "name": "strobes-license-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.5.0",
+        "@strobes/charts": "latest",
+        "@strobes/components": "latest",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "@types/jest": "^26.0.15",
+        "@types/node": "^12.0.0",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "axios": "^0.21.1",
+        "carbon-components": "^10.36.0",
+        "carbon-components-react": "^7.36.0",
+        "carbon-icons": "7.0.7",
+        "class-transformer": "latest",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.3",
+        "redux": "^4.1.0",
+        "redux-logger": "^3.0.6",
+        "redux-saga": "^1.1.3",
+        "reflect-metadata": "^0.1.13",
+        "sass": "^1.33.0",
+        "stylelint": "^13.13.1",
+        "stylelint-config-sass-guidelines": "^8.0.0",
+        "typescript": "^4.3.2",
+        "web-vitals": "^1.0.1"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/carbon-components": "10.27.0",
+        "@types/carbon-components-react": "7.34.0",
+        "@types/carbon__icons-react": "10.24.0",
+        "@types/react-router-dom": "^5.1.7",
+        "@types/redux-logger": "^3.0.8",
+        "@typescript-eslint/eslint-plugin": "^4.13.0",
+        "@typescript-eslint/parser": "^4.13.0",
+        "eslint-config-airbnb-typescript": "^12.0.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-react": "^7.22.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.2.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx src --fix"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
